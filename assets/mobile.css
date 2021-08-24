@@ -74,6 +74,12 @@
         display: none;
     }
 
+    .popup li{
+        text-decoration: none;
+        color: white;
+        text-decoration: none;
+    }
+
     .popup a{
         display: block;
         text-decoration: none;
@@ -299,27 +305,92 @@
     left: 4vw;
     height: 700px;
     z-index: 9999999;
-}
+    }
 
-.join img{
-    width: 60vw;
-}
+    #join-cn{
+        position: relative;
+        top: 200px;
+    }
 
-.join a{
-    text-decoration: none;
-    display: inline-block;
-    font-size: 60px;
-    margin-right: 40px;
-    color: #F43B86;
-    position: relative;
-    left: 4vw;
-    top: 20px
-}
+    #join-nft{
+        position: relative;
+        top: 200px;
+    }
 
-#cr{
-    position: absolute;
-    bottom: 20px;
-    left: 5vw;
-}
+    .join img{
+        width: 60vw;
+    }
+
+    .join a{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 60px;
+        margin-right: 40px;
+        color: #F43B86;
+        position: relative;
+        left: 4vw;
+        top: 20px
+    }
+
+    #cr{
+        position: absolute;
+        bottom: 20px;
+        left: 5vw;
+    }
+
+    .wallet-box{
+        padding: 10px;
+        text-decoration: none;
+        background-color: white;
+        border-radius: 20px;
+        color: black;
+        text-align: left;
+        width: 90%;
+        height: 100px;
+        display: inline-flex;
+        align-items: left;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .wallet-box:hover{
+        background-color: #F43B86;
+        color: white;
+    }
+
+    .wallet-l{
+        width: 20%;
+        position: relative;
+        top: 20px;
+        left: 0px;
+    }
+
+    .wallet-l img{
+        width: 100%;
+    }
+
+    .wallet-r{
+        width: 75%;
+        position: relative; 
+        font-size: 10px;
+        position: relative;
+        left: 25%;
+        top: -50%;
+        color: black;
+    }
+
+    #wallet-box{
+        text-decoration: none;
+    }
+
+    .protonft__container {
+        position: relative;
+        top: 100px;
+    }
+
+    .lottery{
+        position: relative;
+        top: 100px;  
+    }
 
 }

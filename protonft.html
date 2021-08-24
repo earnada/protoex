@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0, 
+                      user-scalable=no, target-densitydpi=device-dpi">
+	<title>
+		Protoex
+	</title>
+	<meta charset="UTF-8">
+    <link rel = "icon" href="assets/logo.png" type = "image/x-icon"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/mobile.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <script>
+        window.onload = function() {
+        
+        var chart = new CanvasJS.Chart("chartContainer", {
+            backgroundColor: "transparent",
+            animationEnabled: true,
+            title: {
+                text: "Tokenomics",
+                fontColor: "white",
+            },
+            legend : {
+                fontColor: "white",
+                fontSize: 30,
+            },
+            toolTip: {
+                fontColor: "black",
+            },
+            axisY:{
+                titleFontColor: "white",
+                labelFontColor: "red"
+            },
+            data: [{
+                type: "pie",
+                startAngle: 240,
+                yValueFormatString: "##0.00\"%\"",
+                indexLabel: "{label} {y}",
+                dataPoints: [
+                    {y: 10, label: "Marketing and dev lock 1 year"},
+                    {y: 25, label: "Presale"},
+                    {y: 25, label: "Pool"},
+                    {y: 40, label: "Marketplace mining and fee rewards lock 1 year"},
+                ]
+            }]
+        });
+        chart.render();
+        
+        }
+    </script>
+</head>
+<body id="body">
+
+    <!-- <img src="assets/bg.jpg" id ="bg" alt=""> -->
+    <!-- <img src="assets/bgm.png" id ="bgm" alt=""> -->
+
+    <div class="topbar">
+        <img src="assets/logo.png" alt="">
+        <img id="judul-img" src="assets/tbj.png" alt="">
+        <li>
+            <a href="index.html">HOME</a>
+        </li>
+        <li>
+            <a href="#chartContainer">TOKENOMICS</a>
+        </li>
+        <li>
+            <a href="protonft.html">PROTONFT</a>
+        </li>
+        <a id="tb-by" href="connect.html">CONNECT</a>
+        <a id="tb-wp" href="">Whitepaper</a>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="popup" id="popup">
+        <a href="index.html">HOME</a>
+
+        <a href="#chartContainer">TOKENOMICS</a>
+
+        <a href="protonft.html">PROTONFT</a>
+        
+        <a href="connect.html">CONNECT</a>
+
+        <a href=" https://twitter.com/">Twitter</a>
+        
+        <a href="https://t.me/">Telegram</a>
+        <img src="assets/logo1.png"/>
+    </div>
+
+    <main class="l-main">
+        <!-- Protonft -->
+        <section class="protonft" id="protonft">
+            <div class="protonft__container">
+                <div class="protonft-slider">
+                    <div class="card protonft-card">
+                        <img src="media/16A37FA1-A2FB-4A5D-87BF-D03EBDD15B3F.PNG" class="protonft-img">
+                        <h3 class="protonft-title">Rare</h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/IMG_3342.PNG" class="protonft-img">
+                        <h3 class="protonft-title"></h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/2BDEEAED-D97D-4038-9B76-8650374D8F5D.PNG" class="protonft-img">
+                        <h3 class="protonft-title">Rare</h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/IMG_3343.PNG" class="protonft-img">
+                        <h3 class="protonft-title"></h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/3DEAB929-A4F5-4274-BDE4-75F1DC1D84BE.PNG" class="protonft-img">
+                        <h3 class="protonft-title">Rare</h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/IMG_3344.PNG" class="protonft-img">
+                        <h3 class="protonft-title"></h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/5AB7ED13-A8C4-4931-A459-F44B6A65ED69.PNG" class="protonft-img">
+                        <h3 class="protonft-title">Rare</h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/IMG_3345.PNG" class="protonft-img">
+                        <h3 class="protonft-title"></h3>
+                    </div>
+                    <div class="card protonft-card">
+                        <img src="media/C67E4639-4090-4A3D-BEED-63BF6A587931.PNG" class="protonft-img">
+                        <h3 class="protonft-title">Rare</h3>
+                    </div>
+                    <div class="card protonft-card mr-0">
+                        <img src="media/IMG_3346.PNG" class="protonft-img">
+                        <h3 class="protonft-title"></h3>
+                    </div>
+                    <div class="card protonft-card mr-0">
+                        <img src="media/E6020A8C-0A6B-4994-98D3-11FE6E745292.PNG" class="protonft-img">
+                        <h3 class="protonft-title">Rare</h3>
+                    </div>
+                    <div class="card protonft-card mr-0">
+                        <img src="media/IMG_3347.PNG" class="protonft-img">
+                        <h3 class="protonft-title"></h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Protonft -->
+        <section class="lottery mt-4" id="protonft">
+            <div class="lottery__container">
+                <h1 class="lottery-title">Lottery</h1>
+                <div class="back">
+                    <div id="app">
+                        <img class="marker" src="media/marker.png" />  <span id="result" ></span>
+                        <img style="margin-top:5px" class="wheel" src="media/whel.png" />
+                        <h1 id="resultSpin" >0</h1>
+                        <input type="submit" id="ltr-rll" class="button" value="Roll"/>
+                    </div>
+                    
+                    <div class="lottery-table mb-4">
+                        <table id="lottery">
+                            <tr>
+                                <th>Lucky Number</th>
+                                <th>Price</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>100$</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>200$</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>300$</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>400$</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>500$</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>600$</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Protonft -->
+        <section class="protonft-soon mt-4 mb-4" id="protonft">
+            <div class="protonft-soon__container">
+                <h1>Coming Soon</h1>
+            </div>
+        </section>
+    </main>
+
+    
+    <div class="join" id="join-nft">
+        <img src="assets/logo1.png" alt="">
+        <h1>Join Our Community!</h1>
+
+        <a href="https://twitter.com/CakeADAofc?s=08">Twitter</a>
+        <a href="https://t.me/Cakeadaofficial">Telegram</a>
+        
+        <p id="cr"><i class='far fa-copyright'></i>Copyright 2021 by CakeADA. All Rights Reserved.</p>
+    </div>
+    
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="assets/nodes.js"></script>
+	<script type="text/javascript"></script>
+	<script src="assets/index.js"></script> 
+    <script src="assets/spin.js"></script>
+
+</body>
+</html>
