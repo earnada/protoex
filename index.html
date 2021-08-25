@@ -200,8 +200,22 @@
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript" src="assets/nodes.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 	<script type="text/javascript"></script>
 	<script src="assets/index.js"></script> 
+    <script>
+        // Scroll Reveal
+        const sr = ScrollReveal({
+            origin: 'left',
+            distance: '30px',
+            duration: 2000,
+            reset: false
+        })
+
+        sr.reveal(`.container`, {
+            interval: 200
+        })
+    </script>
 
 </body>
 </html>

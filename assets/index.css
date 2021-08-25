@@ -363,7 +363,7 @@ body{
     .right::after {
         left: -16px;
     }
-    
+
     /* The actual content */
     .content {
         padding: 10px 30px;
@@ -373,6 +373,8 @@ body{
         position: relative;
         border: 2px solid #F43B86;
     }
+
+    
     
     /* Media queries - Responsive timeline on screens less than 600px wide */
     @media screen and (max-width: 600px) {
